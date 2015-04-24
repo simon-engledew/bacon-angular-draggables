@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Station A",
+    "position": {
+      "x": 100,
+      "y": 100
+    }
+  },
+  {
+    "name": "Station B",
+    "position": {
+      "x": 146,
+      "y": 283
+    }
+  },
+  {
+    "name": "Station C",
+    "position": {
+      "x": 421,
+      "y": 279
+    }
+  },
+  {
+    "name": "Station D",
+    "position": {
+      "x": 521,
+      "y": 279
+    }
+  }
+]
