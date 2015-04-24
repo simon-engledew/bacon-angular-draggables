@@ -20,7 +20,7 @@
         canvas = $window.document.querySelector('.tracks'),
         ctx = canvas.getContext('2d');
 
-      $http.get('/data/stations.json').success(function (data) {
+      $http.get('data/stations.json').success(function (data) {
         self.stations = data;
       });
 
@@ -57,7 +57,7 @@
 
       return {
         restrict: 'E',
-        templateUrl: '/views/station.html',
+        templateUrl: 'views/station.html',
         link: function (scope, element, attrs) {
           var mousedowns = $jQuery(element).asEventStream('mousedown'),
             mouseups = $jQuery(element).asEventStream('mouseup'),
